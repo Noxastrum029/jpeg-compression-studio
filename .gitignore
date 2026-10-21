@@ -1,0 +1,39 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv_win/
+venv/
+env/
+
+# Test/cache outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated outputs
+logs/
+output/
+evaluation_results/
+visualization_output/
+test_image.jpg
+*.jxc
+
+# IDE/editor
+.idea/
+.vscode/
+pyrightconfig.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (just in case)
+.env
+*.pem
+*.key
